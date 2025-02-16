@@ -1,0 +1,3 @@
+- Formalize the notificaction system, implement other ways of contacting
+- Let the user choose the verbosity level
+- Make the requests much more customizable: cookies, http methods, etc.

@@ -71,7 +71,7 @@ func notify(url string) {
 }
 
 func die(format string, a ...any) {
-	_, err := fmt.Fprintf(os.Stderr, format, a...)
+	_, err := fmt.Fprintf(os.Stderr, format + "\n", a...)
 	if err != nil {
 		print("Failed to print error!")
 	}
